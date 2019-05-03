@@ -43,7 +43,7 @@
             $name = $_POST['name'];
             $email = $_POST['email'];
             $job = $_POST['job'];
-            $date = date("YYYYMMDD");
+            $date = date("yyyy-MM-dd hh:MM:ss");
             // Insert data
             $sql_insert = "INSERT INTO Registration (name, email, job, date) 
                         VALUES (?,?,?,?)";
